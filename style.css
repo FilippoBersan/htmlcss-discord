@@ -43,6 +43,10 @@ h1 {
   font-size: 40px;
 }
 
+p {
+  line-height: 30px;
+}
+
 /*
 HEADER
 *****************
@@ -175,7 +179,7 @@ MAIN
 
 .containermain1 {
   display: flex;
-  /* background-color: aqua; */
+
   min-height: 600px;
   justify-content: center;
   align-items: center;
@@ -187,7 +191,6 @@ MAIN
   min-height: 600px;
   justify-content: center;
   align-items: center;
-  flex-direction: row-reverse;
 }
 
 .quad1 {
@@ -198,29 +201,66 @@ MAIN
   border-style: dashed;
 }
 
+.quaditem1 {
+  background-image: url(img/item1.svg);
+}
+
+.quaditem2 {
+  background-image: url(img/item2.svg);
+}
+
+.quaditem3 {
+  background-image: url(img/item3.svg);
+}
+
+.quaditem1,
+.quaditem2,
+.quaditem3 {
+  display: flex;
+
+  background-size: contain;
+  height: 400px;
+  width: 600px;
+  /* border-style: dashed; */
+}
+
 .quad2 {
   display: flex;
-  background-color: #ffc0cb;
+  flex-direction: column;
+  /* background-color: #ffc0cb; */
   height: 400px;
   width: 400px;
-  border-style: dashed;
+  /* border-style: dashed; */
 }
 
 .containermainfinale {
   display: flex;
   background-color: #d3d3d3;
   min-height: 700px;
+  padding-top: 100px;
+
   justify-content: center;
   align-items: center;
-  flex-direction: row-reverse;
+  flex-direction: column;
 }
 
 .quad3 {
   display: flex;
-  background-color: #228b22;
+  background-image: url(img/item4-big.svg);
+  background-size: contain;
   height: 600px;
   width: 900px;
-  border-style: dashed;
+  /* border-style: dashed; */
+}
+
+.containercentratomainfinale {
+  display: flex;
+  align-content: center;
+  margin: 0 auto;
+
+  max-width: 900px;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*
