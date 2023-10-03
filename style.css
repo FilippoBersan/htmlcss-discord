@@ -273,6 +273,31 @@ FOOTER
 
 */
 
+* > footer {
+  color: white;
+}
+
+.settore1footer,
+.settore2footer > h1 {
+  color: #7087d6;
+}
+.settore2footer {
+  line-height: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h3 {
+  color: #7087d6;
+}
+
+.bandieraita {
+  width: 30px;
+  height: 20px;
+}
+
 .containerfooter {
   display: flex;
   background-color: #23272a;
@@ -283,19 +308,29 @@ FOOTER
 
 .quad4 {
   display: flex;
-  background-color: #f08080;
+
+  /* background-color: #f08080; */
   height: 600px;
-  width: 500px;
-  border-style: dashed;
+  width: 700px;
+  /* border-style: dashed; */
 }
 
-.quad5 {
+.social {
+  font-size: 25px;
+  color: white;
+}
+
+.quad5,
+.quad6,
+.quad7,
+.quad8 {
   display: flex;
-  background-color: #20b2aa;
+
+  /* background-color: #20b2aa; */
   height: 600px;
-  width: 150px;
-  border-style: dashed;
-  border-color: aliceblue;
+  width: 200px;
+  /* border-style: dashed; */
+  /* border-color: aliceblue; */
 }
 
 .footerfinale {
@@ -304,25 +339,27 @@ FOOTER
   min-height: 100px;
   justify-content: center;
   align-items: center;
-  border-top: solid white 3px;
+
   align-items: flex-end;
 }
 
 .containerbottonifinali {
   display: flex;
-  background-color: #7fffd4;
+  background-color: #23272a;
   min-width: 800px;
   min-height: 80px;
   align-items: center;
   justify-content: space-between;
+  border-top: solid #4f5d8c 3px;
+  border-top-style: ridge;
 }
 
 .logofinale {
   display: flex;
-  background-color: #ffb6c1;
+  /* background-color: #ffb6c1; */
   min-width: 100px;
-  border-style: dashed;
-  border-color: black;
+  /* border-style: dashed; */
+
   line-height: 30px;
 }
 
@@ -334,4 +371,16 @@ FOOTER
   border-color: black;
   line-height: 30px;
   justify-items: end;
+}
+
+.buttonfinal {
+  background-color: #7289da;
+  display: flex;
+
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50px 50px 50px 50px;
+  align-items: center;
+  color: white;
 }
